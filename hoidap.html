@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            width: 905px;
+            height: 840px;
+            margin: 0 auto;
+            background-color: rgb(192, 243, 226);
+            padding: 10px 0 10px 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">THÔNG TIN HỎI ĐÁP</h2>
+    <form action="#" class="form">
+        <label for="">Họ VÀ TÊN: </label> <br>
+        <input type="text"> <br>
+        <label for="">
+            GIỚI TÍNH:
+            <label><input type="radio"> Nam</label>
+            <label><input type="radio"> Nữ</label>
+        </label> <br><br>
+
+        <label for="">HÌNH ẢNH</label> <br>
+        <label for=""><input type="submit" value="Choose File"> No file Choose</label> <br><br>
+
+        <label for="">QUỐC TỊCH: </label> <br>
+        <select name="list" id="list">
+            <option value="United States">United States</option>
+            <option value="Việt Nam">Việt Nam</option>
+            <option value="Thái Lan">Thái Lan</option>
+            <option value="Lào">Lào</option>
+        </select><br><br>
+
+        <label for="">CÂU HỎI: </label><br>
+        <textarea name="ghichu" id="" cols="50" rows="10"></textarea>
+
+        <hr>
+        <button type="submit">Tra Cứu</button>
+        <button type="reset">Nhập Lại</button>
+
+
+    </form>
+</body>
+
+</html>
